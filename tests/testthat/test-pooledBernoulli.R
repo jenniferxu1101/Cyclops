@@ -1,7 +1,9 @@
 library("testthat")
+library("devtools")
 library("glmnet")
 
 context("test-pooledBernoulli.R")
+load_all("/Users/shiyaoxu/Documents/Research/Cyclops")
 
 test_that("Test data.frame to data for plr without time effects", {
     tolerance <- 1E-4
